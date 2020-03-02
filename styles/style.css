@@ -1,0 +1,15 @@
+body {
+    background-color: aqua;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    height: 500px;
+    width: 500px;
+    margin: 50px auto;
+    border: 1px solid black;
+}
+.child {
+    border: 1px solid black;
+}
