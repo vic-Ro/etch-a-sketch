@@ -2,123 +2,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link src='styles/style.css' type='text/css'>
+    <link href='styles/reset.css'  rel='stylesheet'>
+    <link href='styles/style.css'  rel='stylesheet'>
     <title>Document</title>
 </head>
 <body>
-    <main class='container'>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
-        <div class='child'></div>
+    <main class='layout'>
+        <h1>Etch a sketch</h1>
+        <div class='gridbox' id='gridbox'></div>
+        <div class='container'>
+            <div class='circle'></div>
+            <div class='circle'></div>
+        </div>
     </main>
-    <script src='scripts/main.js' type="text/javascript"></script>
+    <div class='controls'>
+        <button id='reset' class='button'>Reset</button>
+        <button id='grayscale' class='button'>Gray scale</button>
+        <button id='rainbow' class='button'>Rainbow</button>
+        <button id='erase' class='button'>Erase</button>
+    </div>
+    <footer class='footer'>
+        <div class='footer__item'>
+            <a href="https://github.com/vic-Ro" target="_blank"><i class="fab fa-github-square"></i></a>
+            <a href="https://www.linkedin.com/in/vicrcom" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href='mailto:vromerocomino@gmail.com' target="_blank"><i class="fas fa-envelope-square"></i></a>
+        </div>
+        <div class='footer__item'>
+            <img src='images/madeby.png' alt='Made by Víctor R. Comino' class='madeby'>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+    <script src="https://kit.fontawesome.com/b906595944.js" crossorigin="anonymous"></script>   
 </body>
 </html>
